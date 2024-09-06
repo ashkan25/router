@@ -32,7 +32,7 @@ FROM debian:bullseye-slim
 
 RUN apt-get update
 RUN apt-get -y install \
-    ca-certificates 
+    ca-certificates
 
 # Set labels for our image
 LABEL org.opencontainers.image.authors="Apollo Graph, Inc. https://github.com/apollographql/router"
